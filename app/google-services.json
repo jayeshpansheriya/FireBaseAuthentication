@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "75238933366",
+    "firebase_url": "https://newagent-a0c3b.firebaseio.com",
+    "project_id": "newagent-a0c3b",
+    "storage_bucket": "newagent-a0c3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75238933366:android:1f2bb602851c5019",
+        "android_client_info": {
+          "package_name": "com.example.vnurture_android.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75238933366-td8q349c5s3n87gi051fk8g4391nncru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkld4fgv2kjGE3ApyGGlGheGiJuZgIXTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
