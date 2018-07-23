@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FileUploadActivity">
+
+
+    <Button
+        android:id="@+id/selectbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select" />
+
+    <EditText
+        android:id="@+id/file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/selectbtn"
+        android:text="File name"
+        android:layout_toRightOf="@+id/selectbtn" />
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="submit" />
+
+    <TextView
+        android:id="@+id/see_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/submitbtn"
+        android:text="See All" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/selectbtn"
+        android:layout_above="@id/progress"
+        app:srcCompat="@android:color/holo_green_dark" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:id="@+id/progress"
+        android:layout_above="@id/submitbtn"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
