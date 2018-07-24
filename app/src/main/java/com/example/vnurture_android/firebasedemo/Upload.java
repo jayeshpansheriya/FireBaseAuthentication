@@ -1,8 +1,11 @@
 package com.example.vnurture_android.firebasedemo;
 
+import com.google.firebase.database.Exclude;
+
 public class Upload {
     String mName;
     String mImageurl;
+    String mKey;
 
     public Upload(String mName, String mImageurl) {
         if (mName.trim().equals("")){
@@ -29,5 +32,14 @@ public class Upload {
 
     public void setmImageurl(String mImageurl) {
         this.mImageurl = mImageurl;
+    }
+
+    @Exclude
+    public String getmKey() {
+        return mKey;
+    }
+    @Exclude
+    public void setmKey(String mKey) {
+        this.mKey = mKey;
     }
 }

@@ -37,7 +37,7 @@
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:layout_toRightOf="@id/submitbtn"
-        android:text="See All" />
+        android:text="See All Uploaded" />
 
     <ImageView
         android:id="@+id/imageView"
