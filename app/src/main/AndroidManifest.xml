@@ -13,19 +13,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignUpActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".DataStoreActivity" />
-        <activity android:name=".FileUploadActivity">
+        <activity android:name=".LoginRegister.SignUpActivity" />
+        <activity android:name=".LoginRegister.LoginActivity" />
+        <activity android:name=".LoginRegister.MainActivity" />
+        <activity android:name=".LoginRegister.ResetPasswordActivity" />
+        <activity android:name=".LoginRegister.DataStoreActivity" />
+        <activity android:name=".ImageUpload.FileUploadActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ImageListActivity"></activity>
+        <activity android:name=".ImageUpload.ImageListActivity"></activity>
     </application>
 
 </manifest>

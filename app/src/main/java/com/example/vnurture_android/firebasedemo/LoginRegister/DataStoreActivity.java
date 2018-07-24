@@ -1,4 +1,4 @@
-package com.example.vnurture_android.firebasedemo;
+package com.example.vnurture_android.firebasedemo.LoginRegister;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.vnurture_android.firebasedemo.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

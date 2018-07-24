@@ -1,14 +1,14 @@
-package com.example.vnurture_android.firebasedemo;
+package com.example.vnurture_android.firebasedemo.ImageUpload;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.vnurture_android.firebasedemo.R;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -21,7 +21,7 @@ import com.google.firebase.storage.StorageReference;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ImageListActivity extends AppCompatActivity implements ImageListAdapter.onItemClickListener{
+public class ImageListActivity extends AppCompatActivity implements ImageListAdapter.onItemClickListener {
 RecyclerView recyclerView;
 ImageListAdapter adapter;
 ProgressBar progressBar;

@@ -1,4 +1,4 @@
-package com.example.vnurture_android.firebasedemo;
+package com.example.vnurture_android.firebasedemo.LoginRegister;
 
 public class DataModel {
     String id;

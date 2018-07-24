@@ -1,4 +1,4 @@
-package com.example.vnurture_android.firebasedemo;
+package com.example.vnurture_android.firebasedemo.LoginRegister;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import com.example.vnurture_android.firebasedemo.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +19,7 @@ class DataAdapter extends ArrayAdapter<DataModel> {
     List<DataModel> artists;
 
     public DataAdapter(DataStoreActivity dataStoreActivity, ArrayList<DataModel> list) {
-        super(dataStoreActivity,R.layout.custom_layout,list);
+        super(dataStoreActivity, R.layout.custom_layout,list);
 
         this.context = dataStoreActivity;
         this.artists = list;
